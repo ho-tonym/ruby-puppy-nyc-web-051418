@@ -1,11 +1,14 @@
 require "pry"
 
+
 class Dog
 
+  attr_reader :name
   @@all = []
 
-  def initialize(argument)
-    @argument = argument
+  def initialize(name)
+    @name = name
+    @@all << name
   end
 
 
@@ -17,4 +20,6 @@ class Dog
     puts @@all
 
   end
+
+
 end
