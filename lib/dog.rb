@@ -15,6 +15,7 @@ class Dog
     @@all.each do |element|
        puts element
     end
+
   end
 
 end
