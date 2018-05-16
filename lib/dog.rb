@@ -13,7 +13,7 @@ class Dog
 
   def self.all
     @@all.each do |element|
-       element
+       puts element
     end
   end
 
