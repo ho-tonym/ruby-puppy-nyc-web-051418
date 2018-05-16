@@ -11,6 +11,8 @@ class Dog
     @@all.clear
   end
 
-  def self.all? { |e|  }
+  def self.all
+    @@all
+  end
 
 end
