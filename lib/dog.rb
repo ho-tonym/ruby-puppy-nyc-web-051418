@@ -15,7 +15,7 @@ class Dog
     @@all.each do |element|
        puts element
     end
-
+binding.pry
   end
 
 end
