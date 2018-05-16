@@ -6,8 +6,8 @@ class Dog
     @argument = argument
   end
 
-private
-  def clear_all
+
+  def self.clear_all
     @@all.clear
   end
 
